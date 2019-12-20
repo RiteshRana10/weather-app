@@ -1,9 +1,8 @@
-@import '../../assets/css/variables';
-@import '../../assets/css/base';
+@import "../../assets/css/variables";
+@import "../../assets/css/base";
 
-.main_comp
-{
-    background-color: red;
-    width: 500;
-    height: 200;
+.main_comp {
+  width: 500;
+  height: 40%;
+  text-align: center;
 }
