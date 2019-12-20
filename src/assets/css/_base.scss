@@ -1,0 +1,12 @@
+// Setting all the properties those will be global in app.
+html{
+    font-size: 62.5%;
+}
+
+body
+{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: $m-size;
+    background-color: #f4f4f4;
+
+}
