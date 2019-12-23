@@ -1,8 +1,6 @@
 import React, { Component } from 'react';
 import "./WeatherChart.scss"
 import { Line } from 'react-chartjs-2';
-import { Chart } from 'chart.js';
-import cloudIcon from '../../assets/images/cloud2.png';
 import cloud3 from '../../assets/images/cloud3.png';
 import sunny from '../../assets/images/sunny.png';
 import lighting1 from '../../assets/images/lighting1.png';
@@ -14,7 +12,6 @@ const data = {
     datasets: [
         {
             label: 'Singapore Weather',
-            fill: false,
             lineTension: 0.1,
             backgroundColor: 'rgba(255, 204, 0, 0.2)',
             borderColor: '#ffcc33',
