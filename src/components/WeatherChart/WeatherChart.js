@@ -13,7 +13,7 @@ const data = {
     labels: ['12 am', '3 am', '6 am', '9 am', '12 pm', '3 pm', '6 pm', '9 pm'],
     datasets: [
         {
-            label: 'Singapore',
+            label: 'Singapore Weather',
             fill: false,
             lineTension: 0.1,
             backgroundColor: 'rgba(255, 204, 0, 0.2)',
@@ -32,7 +32,6 @@ const data = {
             pointRadius: 8,
             pointHitRadius: 10,
             fill: true,
-
             data: [20, 22, 24, 25, 26, 25, 23, 21]
         }
     ],
@@ -50,7 +49,6 @@ const options = {
             },
             labels: ['12 am', '3 am', '6 am', '9 am', '12 pm', '3 pm', '6 pm', '9 pm', '12 pm'],
         }],
-
     }
 }
 
@@ -107,7 +105,6 @@ export default class WeatherChart extends Component {
                     })}
                 </div>
             </div>
-
         )
     }
 }

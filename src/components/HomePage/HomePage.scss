@@ -9,22 +9,22 @@
   width: 100%;
   height: 40vh;
   display: flex;
-  background-color: #3375c1;
+  background-image: linear-gradient(to top, #1e3c72 0%, #1e3c72 1%, #2a5298 100%);
 }
 .city-info {
-  color: #ffffffff;
-  font-size: 3rem;
+  color: $white;
+  font-size: $l-size;
   display: block;
 }
 .date-time {
-  color: #ffffffff;
+  color: $white;
   font-size: 2rem;
   display: block;
   padding-top: 2%;
 }
 .city-data {
   width: 50%;
-  padding-left: 4%;
+  padding-left: 10%;
   float: left;
   padding-top: 3%;
 }
@@ -34,7 +34,7 @@
 }
 
 .weather-text {
-  color: #ffffffff;
+  color: $white;
   font-size: $m-size;
   vertical-align: middle;
   padding-left: 3%;
@@ -46,7 +46,7 @@
   padding-top: 3%;
 }
 .cloud-icon {
-  width: 20%;
+  width: 15vh;
   vertical-align: middle;
 }
 
@@ -55,10 +55,10 @@
   width: 70%;
 }
 .weather-table-heading {
-  padding-left: 8%;
+  padding-left: 10%;
   width: 70%;
-  color: #ffffffff;
-  font-size: $l-size;
+  color: $white;
+  font-size: 2.5rem;
 }
 .text-icon {
   vertical-align: middle;
@@ -66,12 +66,12 @@
   height: 50%;
 }
 .temperature-text {
-  color: #ffffffff;
+  color: $white;
   font-size: $l-size;
   vertical-align: middle;
   padding-left: 3%;
 }
 .weather-data {
-  padding-left: 30%;
+  padding-left: 38%;
   padding-top: 4%;
 }

@@ -1,7 +1,7 @@
 import React, { Component } from 'react';
 import Header from '../Header/Header';
 import "./HomePage.scss";
-import Tide from '../Tide/Tide';
+import WeatherChart from '../WeatherChart/WeatherChart';
 import humidityIcon from '../../assets/images/humidity.png';
 import cloud3 from '../../assets/images/cloud3.png';
 import precipitation from '../../assets/images/precipitation.png'
@@ -129,7 +129,7 @@ export default class HomePage extends Component {
                         </table>
                     </div>
                 </div>
-                <Tide></Tide>
+                <WeatherChart></WeatherChart>
             </div>
         );
     }
