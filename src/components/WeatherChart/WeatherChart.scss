@@ -1,0 +1,29 @@
+@import "../../assets/css/variables";
+.dashboarb-weather {
+  height: 20vh;
+}
+
+.weather-forecast {
+  display: flex;
+}
+.weather-detail {
+  display: grid;
+  margin-left: 8.5%;
+  @media screen and (min-width: 768px) and (max-width: 1024px) {
+    margin-left: 7%;
+  }
+  @media screen and (min-width: 425px) and (max-width: 768px) {
+    margin-left: 4%;
+  }
+  @media screen and (min-width: 375px) and (max-width: 425px) {
+    margin-left: 2%;
+  }
+  @media screen and (min-width: 320px) and (max-width: 375px) {
+    margin-left: 0%;
+  }
+}
+.weather-forecast .weather-text {
+  color: grey;
+  font-size: $s-size;
+  padding: $s-size;
+}
