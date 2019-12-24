@@ -1,4 +1,4 @@
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+Follow below steps to run the weather-app in local machine:
 
 ## Install Node
 
