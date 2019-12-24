@@ -1,0 +1,28 @@
+
+{
+    "cod": "200",
+    "city": {
+        "id": 2643743,
+        "name": "Singapore",
+        "coord": {
+            "lon": -0.1277,
+            "lat": 51.5073
+        },
+        "country": "GB"
+    },
+    "message": 0.353472054,
+    "list": [
+        {
+            "dt": 1560384000,
+            "humidity": 72.96,
+            "pressure": 744,
+            "temp": {
+                "average": 289.42,
+                "average_max": 292.55,
+                "average_min": 285.12,
+                "record_max": 298.95,
+                "record_min": 281.34
+            },
+            "wind_speed": 2.74
+        }]
+}
