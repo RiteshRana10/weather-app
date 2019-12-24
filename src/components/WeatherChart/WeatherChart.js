@@ -29,11 +29,15 @@ const data = {
             pointRadius: 8,
             pointHitRadius: 10,
             fill: true,
+            
             data: [20, 22, 24, 25, 26, 25, 23, 21]
         }
     ],
 }
 const options = {
+    legend: {
+        display: false
+     },
     scales: {
         xAxes: [{
             gridLines: {
@@ -44,9 +48,9 @@ const options = {
             gridLines: {
                 display: false
             },
-            labels: ['12 am', '3 am', '6 am', '9 am', '12 pm', '3 pm', '6 pm', '9 pm', '12 pm'],
         }],
-    }
+    },
+
 }
 
 const weatherInformation = [
